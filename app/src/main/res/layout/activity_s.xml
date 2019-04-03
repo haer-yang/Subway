@@ -1,9 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".SActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="소스"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/goso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="고소한"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/ranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="랜치드레싱" />
+
+    <CheckBox
+        android:id="@+id/mayonnaise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="마요네즈" />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/sweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="달콤한"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/onion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스위트어니언" />
+
+    <CheckBox
+        android:id="@+id/honeymustard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="허니머스타드" />
+
+    <CheckBox
+        android:id="@+id/chilli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스위트 칠리" />
+
+
+    <CheckBox
+        android:id="@+id/bbq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="바베큐" />
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/spicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="매콤한"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="핫 칠리" />
+
+    <CheckBox
+        android:id="@+id/chipotle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사우스웨스트" />
+
+    <CheckBox
+        android:id="@+id/mustard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="머스타드" />
+
+    <CheckBox
+        android:id="@+id/hoseradish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홀스래디쉬" />
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/sour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="새콤한"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/thousandisland"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사우전아일랜드" />
+
+    <CheckBox
+        android:id="@+id/redwine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="레드와인식초" />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/etc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="기타"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/salt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="소금" />
+
+        <CheckBox
+            android:id="@+id/oliveoil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="올리브오일" />
+
+        <CheckBox
+            android:id="@+id/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="후추" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/horseradish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="다음" />
+
+
+</LinearLayout>

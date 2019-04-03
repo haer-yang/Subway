@@ -11,61 +11,80 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="제외야채선택"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <CheckBox
-        android:id="@+id/lettuece"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="true"
-        android:text="양상추" />
+    android:id="@+id/lettuece"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:checked="true"
+    android:text="양상추" />
 
     <CheckBox
         android:id="@+id/tomatoes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:checked="true"
         android:text="토마토" />
 
     <CheckBox
         android:id="@+id/cucumbers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:checked="true"
         android:text="오이" />
 
     <CheckBox
         android:id="@+id/peppers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:checked="true"
         android:text="피망" />
+
+    <CheckBox
+        android:id="@+id/onions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="양파" />
+
 
     <CheckBox
         android:id="@+id/pickles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:checked="true"
         android:text="피클" />
 
     <CheckBox
         android:id="@+id/olives"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:checked="true"
         android:text="올리브" />
 
     <CheckBox
         android:id="@+id/jalapenos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:checked="true"
         android:text="할라피뇨" />
 
     <CheckBox
         android:id="@+id/avocado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:checked="true"
         android:text="아보카도" />
+
    <Button
-        android:id="@+id/onions"
+        android:id="@+id/v_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="양파" />
+        android:layout_marginTop="30dp"
+        android:text="다음" />
 
 </LinearLayout>
