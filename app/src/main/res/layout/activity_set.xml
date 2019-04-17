@@ -15,38 +15,38 @@
         android:text="세트(추가선택)"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <CheckBox
+    <RadioButton
         android:id="@+id/cookie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="캔콜라 + 쿠키              +1900원" />
-    <CheckBox
+    <RadioButton
         android:id="@+id/chip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="캔콜라 + 감자칩           +1900원" />
-    <CheckBox
+    <RadioButton
         android:id="@+id/potatoe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="캔콜라 + 웨지감자       +2400원" />
 
-    <CheckBox
+    <RadioButton
         android:id="@+id/wcookie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="물 + 쿠키                        +1900원" />
-    <CheckBox
+    <RadioButton
         android:id="@+id/wchip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="물 + 감자칩                     +1900원" />
-    <CheckBox
+    <RadioButton
         android:id="@+id/wpotatoe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
         android:text="물 + 웨지감자                +2400원" />
 
     <Button
-        android:id="@+id/v_next"
+        android:id="@+id/setbt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"

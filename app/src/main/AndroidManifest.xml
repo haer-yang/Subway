@@ -20,12 +20,13 @@
         <activity android:name=".CheeseActivity" />
         <activity android:name=".AddtopActivity" />
         <activity android:name=".OrderActivity" />
-        <activity android:name=".MenupActivity" />
         <activity android:name=".MenufActivity" />
         <activity android:name=".MenucActivity" />
-        <activity android:name=".IntroActivity" />
+
         <activity android:name=".BranchActivity" />
-            <activity android:name=".LoginActivity" >
+        <activity android:name=".MenupActivity"/>
+        <activity android:name=".LoginActivity" />
+            <activity android:name=".IntroActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

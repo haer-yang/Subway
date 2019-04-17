@@ -11,17 +11,21 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ID" />
+            android:layout_marginLeft="140dp"
+            android:text="ID"
+            android:textSize="30dp"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/id"/>
+            android:id="@+id/id"
+            android:hint="                "/>
 
     </LinearLayout>
 
@@ -33,19 +37,24 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PWD"/>
+            android:layout_marginLeft="130dp"
+            android:text="PW"
+            android:textSize="30dp"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/pwd"/>
+            android:id="@+id/pw"
+            android:hint="                "/>
 
     </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/login"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/loginbt"
         android:text="LOGIN"/>
 
 </LinearLayout>

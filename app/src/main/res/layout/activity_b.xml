@@ -1,9 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".BActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="빵" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="크기" />
+
+
+
+        <RadioGroup
+            android:id="@+id/sizegroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/half"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15cm" />
+
+            <RadioButton
+                android:id="@+id/full"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30cm" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종류" />
+
+        <RadioGroup
+            android:id="@+id/breadgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/honeyoat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="허니오트" />
+
+            <RadioButton
+                android:id="@+id/hearty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="하티" />
+
+            <RadioButton
+                android:id="@+id/wheat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="위트" />
+
+            <RadioButton
+                android:id="@+id/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="화이트" />
+
+            <RadioButton
+                android:id="@+id/flat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="플랫브레드" />
+
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="굽기" />
+
+        <RadioGroup
+            android:id="@+id/bake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/bake_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/bake_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/breadbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="다음" />
+
+
+
+</LinearLayout>
