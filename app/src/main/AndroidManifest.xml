@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".ByeActivity"/>
+        <activity android:name=".MyinfoActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ByeActivity" />
         <activity android:name=".ResultActivity" />
         <activity android:name=".SetActivity" />
         <activity android:name=".AddmenuActivity" />
@@ -22,11 +23,10 @@
         <activity android:name=".OrderActivity" />
         <activity android:name=".MenufActivity" />
         <activity android:name=".MenucActivity" />
-
         <activity android:name=".BranchActivity" />
-        <activity android:name=".MenupActivity"/>
+        <activity android:name=".MenupActivity" />
         <activity android:name=".LoginActivity" />
-            <activity android:name=".IntroActivity" >
+        <activity android:name=".IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

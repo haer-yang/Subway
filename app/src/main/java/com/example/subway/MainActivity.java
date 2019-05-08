@@ -44,6 +44,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button logout = (Button)findViewById(R.id.logout);
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(intent4);
+            }
+        });
+
+        Button myinfo = (Button)findViewById(R.id.myinfo);
+        myinfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent5 = new Intent(getApplicationContext(), MyinfoActivity.class);
+                startActivity(intent5);
+            }
+        });
+
 
     }
 }

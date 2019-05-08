@@ -24,7 +24,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="100dp"
                 android:text="서브웨이 이벤트 보기"
-                android:textSize="25dp" />
+                android:textSize="25dp"
+                android:background="#50d100"/>
 
 
             <Button
@@ -34,7 +35,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:text="바로 주문하기"
-                android:textSize="25dp" />
+                android:textSize="25dp"
+                android:background="#FFF800"/>
 
             <Button
                 android:id="@+id/howtoeat"
@@ -43,7 +45,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:text="서브웨이 먹는 법"
-                android:textSize="25dp" />
+                android:textSize="25dp"
+                android:background="#50d100"/>
 
         </LinearLayout>
 
@@ -59,13 +62,15 @@
                 android:id="@+id/myinfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="나의 정보" />
+                android:text="나의 정보"
+                android:background="#50d100"/>
 
             <Button
                 android:id="@+id/logout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="LOG OUT" />
+                android:text="LOG OUT"
+                android:background="#50d100"/>
         </LinearLayout>
 
 
