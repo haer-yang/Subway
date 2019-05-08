@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".AddtopActivity"
     android:orientation="vertical">
-
+    //오늘은 유튜브를 참고하는 시간을 가졌습니다,
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
