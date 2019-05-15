@@ -12,19 +12,23 @@
     <TextView
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:text="빵" />
+        android:textSize="20dp"
+        android:text="빵"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        >
+        android:layout_marginTop="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="크기" />
+            android:textSize="20dp"
+            android:text="크기"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
 
 
 
@@ -58,7 +62,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="종류" />
+            android:text="종류"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
 
         <RadioGroup
             android:id="@+id/breadgroup"
@@ -111,7 +117,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="굽기" />
+            android:text="굽기"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
 
         <RadioGroup
             android:id="@+id/bake"
@@ -137,8 +145,9 @@
         android:id="@+id/breadbt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="다음" />
+        android:layout_gravity="center"
+        android:text="다음"
+        android:layout_marginTop="200dp"/>
 
 
 

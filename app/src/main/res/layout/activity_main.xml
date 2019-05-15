@@ -34,9 +34,9 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
+                android:background="#FFF800"
                 android:text="바로 주문하기"
-                android:textSize="25dp"
-                android:background="#FFF800"/>
+                android:textSize="25dp" />
 
             <Button
                 android:id="@+id/howtoeat"
@@ -70,7 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="LOG OUT"
-                android:background="#50d100"/>
+                android:background="#FFF800"/>
         </LinearLayout>
 
 

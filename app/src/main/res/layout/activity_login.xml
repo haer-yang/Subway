@@ -24,7 +24,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/id"
+            android:id="@+id/loginid"
             android:hint="                "/>
 
     </LinearLayout>
@@ -44,7 +44,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/pw"
+            android:id="@+id/loginpw"
             android:hint="                "/>
 
     </LinearLayout>

@@ -10,9 +10,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="학번:   ___________"
-        android:layout_marginTop="15dp"
+        android:text="학번:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="17dp"
         android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/idview"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="25dp"/>
+
 
     <Button
         android:layout_width="wrap_content"
@@ -23,3 +34,4 @@
         android:id="@+id/infoclose"/>
 
 </LinearLayout>
+
