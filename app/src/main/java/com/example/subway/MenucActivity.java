@@ -13,7 +13,7 @@ public class MenucActivity extends AppCompatActivity {
 
     RadioGroup Jrdgroup;
     RadioButton Jrd_bmt, Jrd_eggmayo, Jrd_meatball, Jrd_blt, Jrd_tuna, Jrd_ham,
-            Jrd_turkey,Jrd_vegi,Jrd_rostbeef,Jrd_rostchicken,Jrd_rotichicken,Jrd_subeayclub,
+            Jrd_turkey,Jrd_vegi,Jrd_rostbeef,Jrd_rostchicken,Jrd_rotichicken,Jrd_subwayclub,Jrd_shrimp,
             Jrd_shrimpavo,Jrd_pulledpork,Jrd_steakcheese,Jrd_turkyBaconAvo,Jrd_ChickenBaconRanch,
             Jrd_SubwayMelt,Jrd_TurkeyBacon,Jrd_SpicyItalian,Jrd_ChickenTeruy;
 
@@ -43,9 +43,8 @@ public class MenucActivity extends AppCompatActivity {
         Jrd_rostbeef=(RadioButton) findViewById(R.id.rd_rostbeef);
         Jrd_rostchicken=(RadioButton) findViewById(R.id.rd_rostchicken);
         Jrd_rotichicken=(RadioButton) findViewById(R.id.rd_rotichicken);
-        Jrd_subeayclub=(RadioButton) findViewById(R.id.rd_subwayculb);
-
-        Jrd_subeayclub=(RadioButton) findViewById(R.id.rd_shrimp);
+        Jrd_subwayclub=(RadioButton) findViewById(R.id.rd_subwayclub);
+        Jrd_shrimp=(RadioButton) findViewById(R.id.rd_shrimp);
         Jrd_shrimpavo=(RadioButton) findViewById(R.id.rd_shrimpavo);
         Jrd_pulledpork=(RadioButton) findViewById(R.id.rd_pulledpork);
         Jrd_steakcheese=(RadioButton) findViewById(R.id.rd_steakcheese);
@@ -108,7 +107,7 @@ public class MenucActivity extends AppCompatActivity {
                         Jimg.setImageResource(R.drawable.veggie);
                         break;
 
-                    case R.id.rd_subwayculb:
+                    case R.id.rd_subwayclub:
                         Jimg.setImageResource(R.drawable.subwayclub);
                         break;
                     case R.id.rd_shrimp:
