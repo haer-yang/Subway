@@ -158,18 +158,12 @@ public class MenucActivity extends AppCompatActivity {
 
 
 
-
-
-
-
-
-
         //다음버튼으로 넘어가기
         Button classicbt = (Button)findViewById(R.id.classicbt);
         classicbt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MenufActivity.class);
+                Intent intent = new Intent(getApplicationContext(), BActivity.class);
                 startActivity(intent);
             }
         });

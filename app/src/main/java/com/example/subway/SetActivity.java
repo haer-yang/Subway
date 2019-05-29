@@ -18,7 +18,7 @@ public class SetActivity extends AppCompatActivity {
         setbt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1 = new Intent(getApplicationContext(), ByeActivity.class);
+                Intent intent1 = new Intent(getApplicationContext(), AddmenuActivity.class);
                 startActivity(intent1);
             }
         });

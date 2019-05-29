@@ -141,7 +141,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:id="@+id/rd_subwayculb"
+            android:id="@+id/rd_subwayclub"
             android:text="써브웨이클럽                          5100원"
             />
         <RadioButton
