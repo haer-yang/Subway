@@ -15,7 +15,9 @@
         android:layout_marginBottom="20dp"
         android:textSize="20dp"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <RadioButton
         android:id="@+id/cookie"
         android:layout_width="wrap_content"
@@ -52,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="물 + 웨지감자                +2400원" />
-
+</RadioGroup>
     <Button
         android:id="@+id/setbt"
         android:layout_width="wrap_content"
