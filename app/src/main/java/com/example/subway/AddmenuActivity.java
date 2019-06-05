@@ -12,7 +12,7 @@ public class AddmenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_addmenu);
-
+//버튼
 
         Button addmenubt = (Button)findViewById(R.id.addmenubt);
         addmenubt.setOnClickListener(new View.OnClickListener() {
