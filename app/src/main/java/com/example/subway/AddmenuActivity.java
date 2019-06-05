@@ -18,7 +18,7 @@ public class AddmenuActivity extends AppCompatActivity {
         addmenubt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1 = new Intent(getApplicationContext(), ByeActivity.class);
+                Intent intent1 = new Intent(getApplicationContext(), ResultActivity.class);
                 startActivity(intent1);
             }
         });
