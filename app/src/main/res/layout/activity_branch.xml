@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BranchActivity"
+    android:background="@drawable/subway_login"
     android:orientation="vertical">
 
     <TextView
