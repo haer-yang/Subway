@@ -3,11 +3,13 @@ package com.example.subway;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 public class MenucActivity extends AppCompatActivity {
 
@@ -162,7 +164,81 @@ public class MenucActivity extends AppCompatActivity {
         classicbt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                int selectedId = Jrdgroup.getCheckedRadioButtonId();
+                int order_sum = 0;
+                switch (selectedId) {
+                    case R.id.rd_blt:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_eggmayo:
+                        order_sum = order_sum + 4300;
+                        break;
+                    case R.id.rd_ham:
+                        order_sum = order_sum + 4700;
+                        break;
+                    case R.id.rd_meatball:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_bmt:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_tuna:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_rotichicken:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_vegi:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_rostchicken:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_rostbeef:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_subwayclub:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_turkey:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_shrimp:
+                        order_sum = order_sum + 6300;
+                        break;
+                    case R.id.rd_shrimpavo:
+                        order_sum = order_sum + 6300;
+                        break;
+                    case R.id.rd_pulledpork:
+                        order_sum = order_sum + 6300;
+                        break;
+                    case R.id.rd_steakcheese:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_turkyBaconAvo:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_ChickenBaconRanch:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_SubwayMelt:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_TurkeyBacon:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_SpicyItalian:
+                        order_sum = order_sum + 5100;
+                        break;
+                    case R.id.rd_ChickenTeruy:
+                        order_sum = order_sum + 5100;
+                        break;
+
+
+                }
+                Log.v("test_menuc", String.valueOf(order_sum));
                 Intent intent = new Intent(getApplicationContext(), BActivity.class);
+                intent.putExtra("order_sum", order_sum);
                 startActivity(intent);
             }
         });

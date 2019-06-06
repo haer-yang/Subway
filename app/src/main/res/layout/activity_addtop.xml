@@ -17,36 +17,43 @@
         android:textAppearance="?android:attr/textAppearanceLarge"/>
 
     <CheckBox
+        android:id="@+id/omelet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="오믈렛 추가                +1100원"/>
 
     <CheckBox
+        android:id="@+id/bacon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="베이컨 추가                +900원"/>
 
     <CheckBox
+        android:id="@+id/eggmayo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="에그마요 추가            +1500원"/>
 
     <CheckBox
+        android:id="@+id/meat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="미트 추가                     +1500원"/>
 
     <CheckBox
+        android:id="@+id/doublecheese"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="더블치즈추가              +800원"/>
 
     <CheckBox
+        android:id="@+id/avocado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="아보카도 추가            +1100원"/>
 
     <CheckBox
+        android:id="@+id/pepperoni"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="페퍼로니 추가           +800원"/>
