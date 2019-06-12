@@ -13,8 +13,8 @@
 
 ### 최종 역할분담은 다음과 같이 했습니다<br>
 ###강해량: branchActivity , MenuActivity, BActivity, AddToppingActivity, AddMenuActivity (XML위주)<br>
-###김해인:IntroActivity , MainActivity(drawerLayout) ,  (Intent로 모든 화면전환,ID값 전달)<br>
-###명민지:LoginActivity , CheeseActivity,VActivity, SActivity, SetMenuActivity, ResultActivity (최종 가격 계산)<br>
+###김해인:IntroActivity , MainActivity(+drawerLayout) , LoginActivity , (Intent로 모든 화면전환,ID값 전달)<br>
+###명민지:CheeseActivity,VActivity, SActivity, SetMenuActivity, ResultActivity (최종 가격 계산)<br>
 
 ##동작과정(어플사용하는방법)<br>
 ###1.먼저 아이디와 패스워드를 입력해 로그인을합니다. \
@@ -34,7 +34,7 @@
   ###13 마지막에 총 주문 금액이 나옵니다.<br>
  
  #요구사항 
- ##강해량 : 저는 xml위주로만 준비했습니다. 메인 메뉴를 선택할 때, OnClickListener에서 이미지지가 바뀌는 기능을 만들었습니다.
- 
+ ##강해량 : 저는 xml위주로만 준비했습니다. 메인 메뉴를 선택할 때, OnClickListener에서 이미지가 바뀌는 기능을 만들었습니다.
+ ##김해인 : 
 
     
