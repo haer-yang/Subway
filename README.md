@@ -1,8 +1,10 @@
 # Subway 주문 어플
 ## 팀원: 강해량 김해인 명민지
 
-https://drive.google.com/file/d/1M63XMQ1xwca3SZHLRXhrEAhfJOsazLEW/view?usp=sharing
-https://drive.google.com/file/d/1-CxL5LucmkYxUVGQFPWzQdKLX2PHONn3/view?usp=sharing
+![안드1](https://user-images.githubusercontent.com/48266911/59332109-7c028f80-8d30-11e9-876a-8f3517353981.PNG)
+![안드2](https://user-images.githubusercontent.com/48266911/59332110-7c028f80-8d30-11e9-8505-a6e345c3f125.PNG)
+
+
 
 ![BTN0SUBWAY](https://user-images.githubusercontent.com/48266911/59332006-4493e300-8d30-11e9-848c-4d0ab16d5c9f.gif)
 
