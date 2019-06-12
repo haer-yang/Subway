@@ -6,8 +6,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
 
 public class BActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +19,8 @@ public class BActivity extends AppCompatActivity {
         Intent intent = getIntent();
         final int order_sum = intent.getExtras().getInt("order_sum");
         Log.v("test_b", String.valueOf(order_sum));
+
+
 
         Button breadbt = (Button)findViewById(R.id.breadbt);
         breadbt.setOnClickListener(new View.OnClickListener() {

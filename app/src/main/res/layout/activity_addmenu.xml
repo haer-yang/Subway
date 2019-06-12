@@ -274,23 +274,25 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="S-1500원,L-1700원"
+                android:text="1500원"
                 android:textSize="12dp"
                 />
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
                 android:id="@+id/check_coffe"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12dp"
-                android:text="S-1500원,L-1700원"/>
+                android:text="1500원"/>
             <CheckBox
                 android:id="@+id/check_hashbrown"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
 
                 />
             <TextView
