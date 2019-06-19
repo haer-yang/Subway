@@ -36,5 +36,5 @@
  #요구사항 
  ##강해량 : 저는 xml위주로만 준비했습니다. 메인 메뉴를 선택할 때, OnClickListener에서 이미지가 바뀌는 기능을 만들었습니다.<br>
  ##김해인 : 저는 맨 처음 시작화면인 introActivity와 로그인 정보를 입력하는 LoginActivity, loginactivity 다음에 넘어가는 MainActivity를 했습니다. 또 각 Activity마다 버튼을 누르면 다음 Activity로 넘어가는 화면 intent작업을 했습니다.<br>
- ##명민지 : 저는 각 activity에서 주문한메뉴의 값을 계속 전달해 마지막 화면인 resultActivity에 주문한 메뉴의 금액을 다 더해서 출력하는 작업을 했습니다.
+ ##명민지 : 저는 각 activity에서 주문한메뉴의 값을 다음 activity로 전달하면서 마지막 화면인 resultActivity에 주문한 메뉴의 금액을 다 더해서 출력하는 작업을 했습니다.
     
